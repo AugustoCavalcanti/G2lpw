@@ -1,0 +1,55 @@
+[
+	{
+		"id": 1,
+		"nome": "jose",
+		"favoritos": [
+			"samba",
+			"gospel"
+		]
+	},
+	{
+		"id": 2,
+		"nome": "maria",
+		"favoritos": [
+			"samba",
+			"sertanejo",
+			"pagode"
+		]
+	},
+	{
+		"id": 3,
+		"nome": "paulo",
+		"favoritos": [
+			"rock",
+			"pop"
+		]
+	},
+	{
+		"id": 4,
+		"nome": "joana",
+		"favoritos": [
+			"gospel",
+			"pop",
+			"rock"
+		]
+	},	
+	{
+		"id": 5,
+		"nome": "marta",
+		"favoritos": [
+		]
+	},
+	{
+		"id": 6,
+		"nome": "joão",
+		"favoritos": [
+			"gospel",
+			"pop",
+			"rock",
+			"samba",
+			"sertanejo",
+			"pagode",
+			"axé"
+		]
+	}
+]

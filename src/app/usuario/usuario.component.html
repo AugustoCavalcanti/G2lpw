@@ -1,0 +1,15 @@
+<section *ngIf="usuario else carregando">
+  <h1 class="mb-4 mt-5 border-bottom">{{usuario.nome}}</h1>
+  <div *ngIf="usuario.favoritos">
+    <span *ngFor="let favorito of usuario.favoritos">
+      <span><h5>{{ favorito }}</h5></span>
+    </span>
+  </div>
+  <div>
+    <h1>Deu Match!</h1>
+    <p></p>
+    </div>
+</section>
+<ng-template #carregando>
+  <section>Aguarde. Carregando...</section>
+</ng-template>

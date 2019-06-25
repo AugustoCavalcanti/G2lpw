@@ -1,0 +1,8 @@
+<section>
+  <div *ngFor="let usuario of usuarios">
+    <h1>{{ usuario.nome }}</h1>
+    <h3 *ngFor="let gosto of usuario.favoritos">
+      {{ gosto}}
+    </h3>
+  </div>
+</section>
